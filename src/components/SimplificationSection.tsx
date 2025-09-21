@@ -33,7 +33,7 @@ const SimplificationSection = () => {
                 Se não tiver panela, pode ser no micro-ondas também. Nosso mecanismo único de receitas foi desenvolvido pensando na praticidade, de forma que qualquer pessoa possa aplicar, independente da idade, ou se tem experiência com a cozinha.
               </p>
               
-              <p className="text-base">Quando o assunto é cozinhar, é sempre aquele dilema: todos gostam do resultado, mas nem todos gostam do processo. Esse "processo" é exatamente aonde se encaixa nosso PÃOZINHO RELÂMPAGO.</p>
+              <p className="text-base">Quando o assunto é cozinhar, é sempre aquele dilema: todos gostam do resultado, mas nem todos do processo. Esse "processo" é exatamente aonde se encaixa nosso PÃOZINHO RELÂMPAGO.</p>
               
               <p className="text-base">
                 Estudando para ter o máximo de otimização nas receitas, aplicamos nosso modelo aos seguintes sabores até o momento:
