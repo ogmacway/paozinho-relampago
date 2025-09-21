@@ -31,7 +31,7 @@ const BonusSection = () => {
           <h2 className="text-xl font-bold text-success mb-3">
             E tem mais pra quem levar hoje!
           </h2>
-          <p className="text-foreground text-base">Receba estes 2 BÔNUS especiais ao garantir seu acesso hoje.</p>
+          <p className="text-foreground text-base">Receba esses 2 BÔNUS gratuitamente ao garantir seu acesso!</p>
         </div>
         
         <div className="space-y-6">
