@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import productBreadBasket from "@/assets/product-bread-basket.jpg";
+import capaProduct from "@/assets/capa_paozinho_relampago.png";
 const PriceCTASection = () => {
   return <section className="py-12 bg-background">
       <div className="max-w-sm mx-auto px-4 text-center">
@@ -9,29 +9,20 @@ const PriceCTASection = () => {
         
         {/* Product Image */}
         <div className="mb-8">
-          <img src={productBreadBasket} alt="Pãozinho Relâmpago - Pães frescos na cesta" className="w-full rounded-2xl shadow-xl" />
+          <img src={capaProduct} alt="Pãozinho Relâmpago - Receitas únicas" className="w-full rounded-2xl shadow-xl" />
         </div>
         
-        {/* Pricing */}
-        <div className="mb-8">
-          <div className="mb-3">
-            <span className="text-lg text-muted-foreground line-through">
-              De R$ 97,90
-            </span>
-          </div>
+        {/* Pricing Copy */}
+        <div className="mb-4">
+          <p className="text-foreground text-base mb-4 leading-relaxed">
+            As receitas são únicas e estudadas para cada tipo de pãozinho, seu valor normal é de 
+            <span className="text-success font-bold"> R$ 97,90</span>
+          </p>
           
-          <div className="mb-4">
-            <span className="text-4xl font-bold text-secondary">
-              R$ 27,90
-            </span>
-          </div>
-          
-          {/* Offer Badge */}
-          <div className="inline-block bg-primary p-3 rounded-lg mb-6">
-            <span className="text-foreground font-bold text-sm">
-              🔥 Oferta por tempo limitado!
-            </span>
-          </div>
+          <p className="text-foreground text-base mb-6 leading-relaxed">
+            Aproveite a promoção por tempo limitado e adquira suas receitas por apenas 
+            <span className="text-2xl font-bold text-success"> R$ 27,90</span>
+          </p>
         </div>
         
         {/* CTA Button */}
