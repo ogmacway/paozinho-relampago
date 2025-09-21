@@ -16,7 +16,7 @@ const PriceCTASection = () => {
         <div className="mb-4">
           <p className="text-foreground mb-4 leading-relaxed text-base">
             As receitas são únicas e estudadas para cada tipo de pãozinho, seu valor normal é de{" "}
-            <span className="text-destructive font-bold line-through whitespace-nowrap">R$ 97,90</span>
+            <span className="text-destructive font-bold line-through whitespace-nowrap text-2xl">R$ 97,90</span>
           </p>
           
           <p className="text-foreground text-base mb-6 leading-relaxed">
