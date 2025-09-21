@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PÃOZINHO RELÂMPAGO Design System - Bakery inspired theme
+Primary: Warm creams and yellows | Secondary: Vibrant reds for CTAs
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Bakery Color Palette */
+    --background: 45 60% 97%;  /* Cream white */
+    --foreground: 20 14% 20%;  /* Dark brown text */
+
+    --card: 45 60% 98%;
+    --card-foreground: 20 14% 20%;
+
+    --popover: 45 60% 98%;
+    --popover-foreground: 20 14% 20%;
+
+    /* Primary: Warm yellows and creams */
+    --primary: 48 95% 85%;  /* Soft yellow #FFECB3 equivalent */
+    --primary-foreground: 20 14% 20%;
+    --primary-light: 45 90% 95%;  /* Very light cream #FFF8E1 equivalent */
+    --primary-warm: 42 85% 75%;   /* Warmer yellow tone */
+
+    /* Secondary: Vibrant reds for CTAs */
+    --secondary: 4 69% 57%;  /* Red #E53935 equivalent */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 4 100% 65%;  /* Bright red #FF5252 equivalent */
+    --secondary-dark: 4 75% 45%;    /* Darker red for hover */
+
+    /* Success/Green for special CTAs */
+    --success: 120 60% 50%;  /* Bright green */
+    --success-foreground: 0 0% 100%;
+    --success-light: 120 60% 60%;  /* Lighter green for hover */
+
+    /* Neutral tones */
+    --muted: 45 30% 92%;
+    --muted-foreground: 20 14% 45%;
+
+    --accent: 42 85% 88%;
+    --accent-foreground: 20 14% 20%;
+
+    --destructive: 4 69% 57%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 45 25% 88%;
+    --input: 45 25% 88%;
+    --ring: 4 69% 57%;
+
+    /* Typography and animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.1);
+    --shadow-elevated: 0 10px 40px rgba(0, 0, 0, 0.15);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 20 14% 4%;
+    --foreground: 45 60% 95%;
+
+    --card: 20 14% 8%;
+    --card-foreground: 45 60% 95%;
+
+    --popover: 20 14% 8%;
+    --popover-foreground: 45 60% 95%;
+
+    --primary: 48 95% 85%;
+    --primary-foreground: 20 14% 20%;
+    --primary-light: 45 90% 95%;
+    --primary-warm: 42 85% 75%;
+
+    --secondary: 4 69% 57%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-light: 4 100% 65%;
+    --secondary-dark: 4 75% 45%;
+
+    --success: 120 60% 50%;
+    --success-foreground: 0 0% 100%;
+    --success-light: 120 60% 60%;
+
+    --muted: 20 14% 12%;
+    --muted-foreground: 45 30% 65%;
+
+    --accent: 20 14% 16%;
+    --accent-foreground: 45 60% 95%;
+
+    --destructive: 4 69% 57%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 14% 16%;
+    --input: 20 14% 16%;
+    --ring: 4 69% 57%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fredoka', cursive;
+  }
+}
