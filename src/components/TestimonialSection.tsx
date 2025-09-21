@@ -8,13 +8,7 @@ const TestimonialCard = ({
 }: {
   text: string;
   name: string;
-}) => (
-  <div className="bg-card p-6 rounded-2xl shadow-lg">
-    <RatingStars />
-    <p className="text-foreground text-sm leading-relaxed mb-4">{text}</p>
-    <p className="text-muted-foreground text-sm font-medium">— {name}</p>
-  </div>
-);
+}) => {};
 const TestimonialSection = () => {
   const testimonials = [{
     text: "Incrível! Nunca imaginei que fazer pão pudesse ser tão simples. Em 15 minutos tenho pão fresquinho na mesa, sem bagunça nenhuma!",
