@@ -14,12 +14,14 @@ const PriceCTASection = () => {
         
         {/* Pricing Copy */}
         <div className="mb-4">
-          <p className="text-foreground text-base mb-4 leading-relaxed">
-            As receitas são únicas e estudadas para cada tipo de pãozinho, seu valor normal é de <span className="text-destructive font-bold line-through">R$97,90</span>
+          <p className="text-foreground mb-4 leading-relaxed text-base">
+            As receitas são únicas e estudadas para cada tipo de pãozinho, seu valor normal é de{" "}
+            <span className="text-destructive font-bold line-through">R$ 97,90</span>
           </p>
           
           <p className="text-foreground text-base mb-6 leading-relaxed">
-            Aproveite a promoção por tempo limitado e adquira suas receitas por apenas <span className="text-2xl font-bold text-success">R$27,90</span>
+            Aproveite a promoção por tempo limitado e adquira suas receitas por apenas{" "}
+            <span className="text-2xl font-bold text-success">R$ 27,90</span>
           </p>
         </div>
         
