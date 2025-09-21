@@ -1,31 +1,16 @@
-import { Star } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import testimonial1 from "@/assets/testimonial-1.png";
 import testimonial2 from "@/assets/testimonial-2.png";
 import testimonial3 from "@/assets/testimonial-3.png";
 import testimonial4 from "@/assets/testimonial-4.png";
 
-const RatingStars = () => (
-  <div className="flex justify-center gap-1 mb-4">
-    {[1, 2, 3, 4, 5].map(star => (
-      <Star key={star} className="w-5 h-5 fill-secondary text-secondary" />
-    ))}
-  </div>
-);
-
 const TestimonialCard = ({ image, name }: { image: string; name: string }) => (
   <div className="bg-card rounded-xl shadow-lg p-4 h-full">
-    <RatingStars />
-    <div className="mb-4">
-      <img 
-        src={image} 
-        alt={`Depoimento de ${name}`}
-        className="w-full h-auto rounded-lg shadow-sm"
-      />
-    </div>
-    <p className="text-center text-sm text-muted-foreground font-medium">
-      Depoimento real de {name}
-    </p>
+    <img 
+      src={image} 
+      alt={`Depoimento de ${name}`}
+      className="w-full h-auto rounded-lg shadow-sm"
+    />
   </div>
 );
 
