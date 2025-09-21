@@ -21,7 +21,7 @@ const PriceCTASection = () => {
           
           <p className="text-foreground text-base mb-6 leading-relaxed">
             Aproveite a promoção por tempo limitado e adquira suas receitas por apenas{" "}
-            <span className="text-2xl font-bold text-success whitespace-nowrap">R$ 27,90 á vista
+            <span className="text-2xl font-bold text-success whitespace-nowrap">R$ 27,90 à vista
 ou 5x R$ 6,41 </span>
           </p>
         </div>
