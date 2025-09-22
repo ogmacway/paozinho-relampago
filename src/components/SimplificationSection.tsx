@@ -65,6 +65,10 @@ const SimplificationSection = () => {
                   <CarouselPrevious className="left-2" />
                   <CarouselNext className="right-2" />
                 </Carousel>
+                
+                <p className="text-destructive text-base font-medium mt-6 text-center leading-relaxed">
+                  Estamos sempre recolhendo feedback dos clientes para incrementar mais sabores ao modelo PÃOZINHO RELÂMPAGO! Não fique de fora, faça seu pãozinho amanhã de manhã.
+                </p>
               </div>
             </div>
           </div>
