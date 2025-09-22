@@ -38,6 +38,11 @@ const HeroSection = () => {
           variant="cta" 
           size="lg" 
           className="bg-success hover:bg-success-light text-success-foreground font-bold py-4 px-8 rounded-xl"
+          onClick={() => {
+            document.getElementById('solution-title')?.scrollIntoView({ 
+              behavior: 'smooth' 
+            });
+          }}
         >
           QUERO FAZER MEU PÃOZINHO!
         </Button>

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import capaProduct from "@/assets/capa_paozinho_relampago.png";
 const PriceCTASection = () => {
-  return <section className="py-12 bg-background">
+  return <section id="offer-section" className="py-12 bg-background">
       <div className="max-w-sm mx-auto px-4 text-center">
         <h2 className="text-xl font-bold text-success mb-8">
           Garanta agora as Receitas Pãozinho Relâmpago!
@@ -28,7 +28,12 @@ ou
         </div>
         
         {/* CTA Button */}
-        <Button variant="cta" size="lg" className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold">
+        <Button 
+          variant="cta" 
+          size="lg" 
+          className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold"
+          onClick={() => window.open('https://go.pepperpay.com.br/d5wmw', '_blank')}
+        >
           QUERO FAZER MEU PÃOZINHO!
         </Button>
         

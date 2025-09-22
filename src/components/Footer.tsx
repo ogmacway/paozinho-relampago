@@ -15,7 +15,16 @@ const Footer = () => {
           </div>
           
           <div className="mb-6">
-            <Button variant="cta" size="lg" className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold">
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold"
+              onClick={() => {
+                document.getElementById('offer-section')?.scrollIntoView({ 
+                  behavior: 'smooth' 
+                });
+              }}
+            >
               QUERO FAZER MEU PÃOZINHO!
             </Button>
           </div>

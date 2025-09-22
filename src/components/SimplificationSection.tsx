@@ -11,7 +11,7 @@ const SimplificationSection = () => {
   return <section className="py-12 bg-primary-light">
       <div className="max-w-sm mx-auto px-4">
         {/* Solution Title */}
-        <div className="text-center mb-8">
+        <div id="solution-title" className="text-center mb-8">
           <h3 className="text-xl font-bold text-foreground mb-6">
             Chega de desculpas! Suas manhãs merecem:
           </h3>
