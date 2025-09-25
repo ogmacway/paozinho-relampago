@@ -26,7 +26,7 @@ const SimplificationSection = () => {
             <h2 className="text-xl font-bold text-green-600 mb-6 leading-tight text-center">15 minutos e PRONTO... Isso é tudo que você precisa!</h2>
             
             <div className="space-y-4 text-sm text-foreground leading-relaxed">
-              <p className="text-base">Quer ter seu pãozinho em menos de 15 minutos? Se não tiver panela, pode ser no micro-ondas também. Nosso mecanismo único de receitas foi desenvolvido pensando na praticidade, de forma que qualquer pessoa possa aplicar, independente da idade, ou se tem experiência com a cozinha.</p>
+              <p className="text-base">Quer ter seu pãozinho em menos de 15 minutos? Feito na panela, ou então no micro-ondas. Nosso mecanismo único de receitas foi desenvolvido pensando na praticidade, de forma que qualquer pessoa possa aplicar, independente da idade, ou se tem experiência com a cozinha.</p>
               
               <p className="text-base">Quando o assunto é cozinhar, é sempre aquele dilema: todos gostam do resultado, mas nem todos do processo. Esse "processo" é exatamente aonde se encaixa nosso PÃOZINHO RELÂMPAGO.</p>
               
