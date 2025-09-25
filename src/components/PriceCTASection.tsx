@@ -21,7 +21,7 @@ const PriceCTASection = () => {
           
           <p className="text-foreground mb-6 leading-relaxed text-base">
             Aproveite a promoção por tempo limitado e adquira suas receitas por apenas{" "}
-            <span className="text-2xl font-bold text-success whitespace-nowrap">APENAS R$ 9,90  </span>
+            <span className="font-bold text-success whitespace-nowrap text-5xl"> R$ 9,90  </span>
           </p>
         </div>
         
