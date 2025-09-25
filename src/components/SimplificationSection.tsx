@@ -23,10 +23,7 @@ const SimplificationSection = () => {
           
           {/* Text Content */}
           <div>
-            <h2 className="text-xl font-bold text-green-600 mb-6 leading-tight text-center">
-              1 PANELA + 1 POTE + 1 PRATO e pronto... 
-              Isso é tudo que você precisa!
-            </h2>
+            <h2 className="text-xl font-bold text-green-600 mb-6 leading-tight text-center">15 minutos e PRONTO... Isso é tudo que você precisa!</h2>
             
             <div className="space-y-4 text-sm text-foreground leading-relaxed">
               <p className="text-base">Quer ter seu pãozinho em menos de 15 minutos? Se não tiver panela, pode ser no micro-ondas também. Nosso mecanismo único de receitas foi desenvolvido pensando na praticidade, de forma que qualquer pessoa possa aplicar, independente da idade, ou se tem experiência com a cozinha.</p>
