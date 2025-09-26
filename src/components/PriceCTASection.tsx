@@ -26,7 +26,7 @@ const PriceCTASection = () => {
         </div>
         
         {/* CTA Button */}
-        <Button variant="cta" size="lg" className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold" onClick={() => window.open('https://go.pepperpay.com.br/d5wmw', '_blank')}>
+        <Button variant="cta" size="lg" className="text-base py-4 px-6 rounded-xl w-full bg-success hover:bg-success-light text-success-foreground font-bold" onClick={() => window.open('https://go.pepperpay.com.br/bnqsz', '_blank')}>
           QUERO FAZER MEU PÃOZINHO!
         </Button>
         
